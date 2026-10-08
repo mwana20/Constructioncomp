@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 import { PageId, Project } from '../types';
 import { COMPANY_INFO, SERVICES, PROJECTS, TESTIMONIALS } from '../data/companyData';
+import {
+  HERO_CONSTRUCTION,
+  TEAM_CONSTRUCTION_SAFETY,
+  PROJECT_FOUNDATION_STAGE,
+  PROJECT_STRUCTURE_ACTIVE,
+  PROJECT_MODERN_FINISHED,
+} from '../data/images';
 import { 
   ArrowRight, 
   MapPin, 
@@ -38,7 +45,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* Cinematic Uganda Construction Hero Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_construction_uganda_1791411895301.jpg"
+            src={HERO_CONSTRUCTION}
             alt="Mwanaweika Construction Company site in Uganda"
             className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
             referrerPolicy="no-referrer"
@@ -140,7 +147,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-xl overflow-hidden border border-neutral-700/80 shadow-2xl bg-neutral-950 group">
                 <img
-                  src="/src/assets/images/team_construction_safety_1791411938635.jpg"
+                  src={TEAM_CONSTRUCTION_SAFETY}
                   alt="Mwanaweika Construction site team in Mukono"
                   className="w-full h-[380px] sm:h-[460px] object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -336,7 +343,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl flex flex-col group">
               <div className="relative h-60 w-full overflow-hidden bg-neutral-950">
                 <img
-                  src="/src/assets/images/project_foundation_stage_1791411906476.jpg"
+                  src={PROJECT_FOUNDATION_STAGE}
                   alt="Foundation stage projects in Mukono"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
@@ -370,7 +377,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl flex flex-col group">
               <div className="relative h-60 w-full overflow-hidden bg-neutral-950">
                 <img
-                  src="/src/assets/images/project_structure_active_1791411916533.jpg"
+                  src={PROJECT_STRUCTURE_ACTIVE}
                   alt="Active projects under construction in Uganda"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
@@ -404,7 +411,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl flex flex-col group">
               <div className="relative h-60 w-full overflow-hidden bg-neutral-950">
                 <img
-                  src="/src/assets/images/project_modern_finished_1791411928542.jpg"
+                  src={PROJECT_MODERN_FINISHED}
                   alt="Completed buildings delivered to clients"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
@@ -668,7 +675,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       <section className="relative py-24 lg:py-32 overflow-hidden border-t border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_construction_uganda_1791411895301.jpg"
+            src={HERO_CONSTRUCTION}
             alt="Mwanaweika construction project discussion"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PageId, Project } from '../types';
 import { PROJECTS, MASTER_CONSTRUCTION_JOURNEY } from '../data/companyData';
+import { PROJECT_FOUNDATION_STAGE } from '../data/images';
 import { 
   CheckCircle2, 
   MapPin, 
@@ -40,7 +41,7 @@ export const ProgressPage: React.FC<ProgressPageProps> = ({
       <section className="relative py-24 lg:py-28 overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/project_foundation_stage_1791411906476.jpg"
+            src={PROJECT_FOUNDATION_STAGE}
             alt="Mwanaweika Construction stage by stage build progress"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

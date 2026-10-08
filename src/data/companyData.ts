@@ -1,4 +1,11 @@
 import { ServiceItem, Project, TeamMember, Testimonial } from '../types';
+import {
+  HERO_CONSTRUCTION,
+  TEAM_CONSTRUCTION_SAFETY,
+  PROJECT_MODERN_FINISHED,
+  PROJECT_STRUCTURE_ACTIVE,
+  PROJECT_FOUNDATION_STAGE,
+} from './images';
 
 export const COMPANY_INFO = {
   name: 'MWANAWEIKA CONSTRUCTION COMPANY',
@@ -39,7 +46,7 @@ export const SERVICES: ServiceItem[] = [
       'Turnkey residential interior & exterior finishing',
       'Boundary walling, paving & compound development'
     ],
-    image: '/src/assets/images/project_modern_finished_1791411928542.jpg',
+    image: PROJECT_MODERN_FINISHED,
     iconName: 'Home',
   },
   {
@@ -55,7 +62,7 @@ export const SERVICES: ServiceItem[] = [
       'Commercial perimeter security & drainage civil works',
       'Accessibility ramps, fire safety integration & service ducts'
     ],
-    image: '/src/assets/images/project_structure_active_1791411916533.jpg',
+    image: PROJECT_STRUCTURE_ACTIVE,
     iconName: 'Building2',
   },
   {
@@ -71,7 +78,7 @@ export const SERVICES: ServiceItem[] = [
       'Exterior facade restyling & fresh decorative plastering',
       'Electrical rewiring & modern plumbing overhauls'
     ],
-    image: '/src/assets/images/project_modern_finished_1791411928542.jpg',
+    image: PROJECT_MODERN_FINISHED,
     iconName: 'Wrench',
   },
   {
@@ -87,7 +94,7 @@ export const SERVICES: ServiceItem[] = [
       'Retaining walls for sloped Mukono terrains & drainage civil works',
       'Engineered timber & light-gauge steel roof truss fabrication'
     ],
-    image: '/src/assets/images/project_foundation_stage_1791411906476.jpg',
+    image: PROJECT_FOUNDATION_STAGE,
     iconName: 'Hammer',
   },
   {
@@ -103,7 +110,7 @@ export const SERVICES: ServiceItem[] = [
       'Hardwood, aluminium & UPVC window and door installations',
       'Sanitary ware fitting, kitchen countertops & cabinetry installation'
     ],
-    image: '/src/assets/images/hero_construction_uganda_1791411895301.jpg',
+    image: HERO_CONSTRUCTION,
     iconName: 'Paintbrush',
   },
   {
@@ -119,7 +126,7 @@ export const SERVICES: ServiceItem[] = [
       'Transparent weekly photo progress logs & client updates',
       'Occupational health, site safety & environmental compliance'
     ],
-    image: '/src/assets/images/team_construction_safety_1791411938635.jpg',
+    image: TEAM_CONSTRUCTION_SAFETY,
     iconName: 'ClipboardCheck',
   },
 ];
@@ -143,7 +150,7 @@ export const PROJECTS: Project[] = [
       'Hardwood Teak Joinery & High-Performance Aluminium Sliders',
       'Solar Water Heating & Integrated Stormwater Harvesting'
     ],
-    image: '/src/assets/images/project_modern_finished_1791411928542.jpg',
+    image: PROJECT_MODERN_FINISHED,
     timeline: [
       { stage: 'Foundation', description: 'Deep strip foundation & concrete sub-base', status: 'completed', progressPercentage: 100 },
       { stage: 'Structure', description: 'Reinforced concrete columns & clay brickwork', status: 'completed', progressPercentage: 100 },
@@ -171,7 +178,7 @@ export const PROJECTS: Project[] = [
       'External Scaffolding for High-Elevation Masonry',
       'Ground Floor Customer Parking with Reinforced Apron'
     ],
-    image: '/src/assets/images/project_structure_active_1791411916533.jpg',
+    image: PROJECT_STRUCTURE_ACTIVE,
     timeline: [
       { stage: 'Foundation', description: 'Pad footings & heavy grade ground beams', status: 'completed', progressPercentage: 100 },
       { stage: 'Structure', description: '3-tier column framework & 2nd suspended floor slab', status: 'completed', progressPercentage: 100 },
@@ -199,7 +206,7 @@ export const PROJECTS: Project[] = [
       'BS-Standard High-Yield T12 & T16 Steel Reinforcement',
       'Ready-Mix Grade 25 Concrete Foundation Pours'
     ],
-    image: '/src/assets/images/project_foundation_stage_1791411906476.jpg',
+    image: PROJECT_FOUNDATION_STAGE,
     timeline: [
       { stage: 'Foundation', description: 'Excavation complete, rebar cages tied & footings poured', status: 'in-progress', progressPercentage: 85 },
       { stage: 'Structure', description: 'Sub-structure blockwork to damp-proof course (DPC)', status: 'pending', progressPercentage: 0 },
@@ -227,7 +234,7 @@ export const PROJECTS: Project[] = [
       'Full Network CAT6 Data Cabling & Inverter Backup Lines',
       'Exterior Weather-Shield Refresh & Branded Facade Signage'
     ],
-    image: '/src/assets/images/project_modern_finished_1791411928542.jpg',
+    image: PROJECT_MODERN_FINISHED,
     timeline: [
       { stage: 'Foundation', description: 'Structural audit & sub-floor inspection', status: 'completed', progressPercentage: 100 },
       { stage: 'Structure', description: 'Load-bearing lintel reinforcements & new doorways', status: 'completed', progressPercentage: 100 },
@@ -255,7 +262,7 @@ export const PROJECTS: Project[] = [
       'Independent Unit Balconies with Steel Balustrades',
       'Phase 1 Framing Complete; Plumbing Rough-ins in Progress'
     ],
-    image: '/src/assets/images/project_structure_active_1791411916533.jpg',
+    image: PROJECT_STRUCTURE_ACTIVE,
     timeline: [
       { stage: 'Foundation', description: 'Continuous strip foundation & reinforced basement raft', status: 'completed', progressPercentage: 100 },
       { stage: 'Structure', description: 'Level 1 and Level 2 slab casting and column curing', status: 'completed', progressPercentage: 100 },
@@ -283,7 +290,7 @@ export const PROJECTS: Project[] = [
       'Transparent Weekly Progress Photos & Drone Aerial Survey',
       'Dedicated Site Store & 24/7 Security Enclosure'
     ],
-    image: '/src/assets/images/project_foundation_stage_1791411906476.jpg',
+    image: PROJECT_FOUNDATION_STAGE,
     timeline: [
       { stage: 'Foundation', description: 'Pad excavation, steel bending & blinding concrete pour', status: 'in-progress', progressPercentage: 90 },
       { stage: 'Structure', description: 'Rising brickwork and ground floor slab casting', status: 'pending', progressPercentage: 0 },
@@ -308,7 +315,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Temporary water storage & secure tool containers',
       'Architectural benchmark grid pegging'
     ],
-    image: '/src/assets/images/project_foundation_stage_1791411906476.jpg',
+    image: PROJECT_FOUNDATION_STAGE,
   },
   {
     step: '02',
@@ -321,7 +328,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Anti-termite treatment & damp-proof membrane (DPM)',
       'Foundation walling up to damp-proof course (DPC)'
     ],
-    image: '/src/assets/images/project_foundation_stage_1791411906476.jpg',
+    image: PROJECT_FOUNDATION_STAGE,
   },
   {
     step: '03',
@@ -334,7 +341,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Formwork propping & slab reinforcement inspection',
       'Vibrated concrete casting & 21-day water curing'
     ],
-    image: '/src/assets/images/project_structure_active_1791411916533.jpg',
+    image: PROJECT_STRUCTURE_ACTIVE,
   },
   {
     step: '04',
@@ -347,7 +354,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Ridge capping, valley gutters & rainwater downpipes',
       'Fascia boards & eaves ventilation'
     ],
-    image: '/src/assets/images/project_structure_active_1791411916533.jpg',
+    image: PROJECT_STRUCTURE_ACTIVE,
   },
   {
     step: '05',
@@ -360,7 +367,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Internal wall plastering & external sand-face rendering',
       'Gypsum false ceiling framing & board fixing'
     ],
-    image: '/src/assets/images/hero_construction_uganda_1791411895301.jpg',
+    image: HERO_CONSTRUCTION,
   },
   {
     step: '06',
@@ -373,7 +380,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Aluminium glazing, hardwood doors & locksets',
       'Sanitaryware installation, test running & compound paving'
     ],
-    image: '/src/assets/images/project_modern_finished_1791411928542.jpg',
+    image: PROJECT_MODERN_FINISHED,
   },
   {
     step: '07',
@@ -386,7 +393,7 @@ export const MASTER_CONSTRUCTION_JOURNEY = [
       'Handover of architectural plans, warranties & keys',
       'Post-handover warranty support'
     ],
-    image: '/src/assets/images/project_modern_finished_1791411928542.jpg',
+    image: PROJECT_MODERN_FINISHED,
   }
 ];
 
@@ -400,7 +407,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     experience: '14+ Years in East Africa',
     bio: 'Oversees structural design compliance, resource planning, and quality control across all residential and commercial building sites.',
     avatarSeed: 'PatrickKatende',
-    image: '/src/assets/images/team_construction_safety_1791411938635.jpg',
+    image: TEAM_CONSTRUCTION_SAFETY,
   },
   {
     id: 'team-2',

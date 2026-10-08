@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PageId, Project } from '../types';
 import { PROJECTS } from '../data/companyData';
+import { PROJECT_MODERN_FINISHED } from '../data/images';
 import { 
   MapPin, 
   Clock, 
@@ -41,7 +42,7 @@ export const ProjectsPage: React.FC<ProjectsPageProps> = ({
       <section className="relative py-24 lg:py-28 overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/project_modern_finished_1791411928542.jpg"
+            src={PROJECT_MODERN_FINISHED}
             alt="Mwanaweika Architectural Project Portfolio"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

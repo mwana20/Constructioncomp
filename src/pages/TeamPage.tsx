@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PageId } from '../types';
 import { TEAM_MEMBERS } from '../data/companyData';
+import { TEAM_CONSTRUCTION_SAFETY } from '../data/images';
 import { 
   HardHat, 
   ShieldCheck, 
@@ -35,7 +36,7 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate }) => {
       <section className="relative py-24 lg:py-28 overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/team_construction_safety_1791411938635.jpg"
+            src={TEAM_CONSTRUCTION_SAFETY}
             alt="Mwanaweika Construction site team in Uganda"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

@@ -104,7 +104,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
       <section className="relative py-24 lg:py-28 overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/project_modern_finished_1791411928542.jpg"
+            src={PROJECT_MODERN_FINISHED}
             alt="Mwanaweika finished modern residence"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"

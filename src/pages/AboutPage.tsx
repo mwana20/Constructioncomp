@@ -1,6 +1,7 @@
 import React from 'react';
 import { PageId } from '../types';
 import { COMPANY_INFO, COMPANY_VALUES, COMPANY_APPROACH } from '../data/companyData';
+import { HERO_CONSTRUCTION, TEAM_CONSTRUCTION_SAFETY } from '../data/images';
 import { 
   ShieldCheck, 
   Target, 
@@ -26,7 +27,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
       <section className="relative py-24 lg:py-32 overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/team_construction_safety_1791411938635.jpg"
+            src={TEAM_CONSTRUCTION_SAFETY}
             alt="Mwanaweika construction team at building site"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
@@ -92,7 +93,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-neutral-800 shadow-2xl bg-neutral-900">
               <img
-                src="/src/assets/images/hero_construction_uganda_1791411895301.jpg"
+                src={HERO_CONSTRUCTION}
                 alt="Active structural site works in Uganda"
                 className="w-full h-[420px] object-cover"
                 referrerPolicy="no-referrer"

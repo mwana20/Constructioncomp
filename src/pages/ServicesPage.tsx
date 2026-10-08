@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PageId } from '../types';
 import { SERVICES } from '../data/companyData';
+import { PROJECT_STRUCTURE_ACTIVE } from '../data/images';
 import { 
   CheckCircle2, 
   ArrowRight, 
@@ -29,7 +30,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate }) => {
       <section className="relative py-24 lg:py-28 overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/project_structure_active_1791411916533.jpg"
+            src={PROJECT_STRUCTURE_ACTIVE}
             alt="Mwanaweika Construction building services in Mukono"
             className="w-full h-full object-cover object-center"
             referrerPolicy="no-referrer"
