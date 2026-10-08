@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { WhatsAppButton } from './components/WhatsAppButton';
 import { ProjectModal } from './components/ProjectModal';
+import { GlobalAnimations } from './components/GlobalAnimations';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { ServicesPage } from './pages/ServicesPage';
@@ -55,6 +56,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-neutral-950 text-neutral-100 selection:bg-amber-500 selection:text-neutral-950">
+      <GlobalAnimations currentPage={currentPage} />
+
       {/* Sticky Navigation Bar */}
       <Navbar currentPage={currentPage} onNavigate={handleNavigate} />
 

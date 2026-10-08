@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PageId, QuoteFormData } from '../types';
 import { COMPANY_INFO } from '../data/companyData';
+import { PROJECT_MODERN_FINISHED } from '../data/images';
 import { 
   MapPin, 
   Phone, 
